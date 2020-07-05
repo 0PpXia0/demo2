@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <table width="500px" align="center" bgcolor="#336699">
+            <tr>
+                <td align="right">账号：</td>
+                <td><input type="text" placeholder="请输入账号" name="username" maxlength="6"   size="25"></td>
+            </tr>
+            <tr>
+                <td align="right">邮箱：</td>
+                <td><input type="text" value="@163.com" name="email"></td>
+            </tr>
+            <tr>
+                <td align="right">密码：</td>
+                <td><input type="password" name="paw"></td>
+            </tr>
+            <tr>
+                <td align="right">文件上传：</td>
+                <td><input type="file" name="file"></td>
+            </tr>
+            <tr>
+                <td align="right">性别：</td>
+                <td>
+                男：<input type="radio" name="sexbox" value="man">
+                女：<input type="radio" name="sexbox" value="woman" checked>
+                保密：<input type="radio" name="sexbox" value="bm"> 
+                </td>
+            </tr>
+            <tr>
+                <td align="right">爱好：</td>
+                <td>
+                蔬菜：<input type="checkbox" name="max" value="sc" checked>
+                听歌：<input type="checkbox" name="max" value="tg">
+                敲代码：<input type="checkbox" name="max" value="qdm">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" value="点我" name="button"> 
+                <input type="submit" value="提交" name="submit">
+                <input type="reset" value="重置" name="chongzhi"></td>
+            </tr>
+        </table>
+      </form>
+</body>
+</html>
